@@ -8,7 +8,7 @@ import src.ch02_FactoryDesign.village.TrainingCampWarrior;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TrainingCampArcherTest {
+public class TrainingCampTest {
     @Test
     public void test() {
         //為了避免ch01簡單工廠新增職業動到既有程式的問題, 所以將TrainingCamp提升為一個抽象概念
@@ -21,7 +21,5 @@ public class TrainingCampArcherTest {
 
         assertEquals("Archer",archer.getType());
         assertEquals("Warrior",warrior.getType());
-
-
     }
 }

@@ -1,11 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="" />
+    <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/TrainingCamp_EquipFactory_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/ArcherEquipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/EquipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/Leather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/LongSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/WarriorEquipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/equip/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/village/Adventure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/village/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/village/TrainingCamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/village/TrainingCampArcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/village/TrainingCampWarrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch03_AbstractFactory/village/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04_Strategy/SortingExampleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04_Strategy/sortingExample/SortVillageByArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04_Strategy/sortingExample/SortVillageById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04_Strategy/sortingExample/SortVillageByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04_Strategy/sortingExample/SortVillageByPopulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04_Strategy/sortingExample/Village.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/TrainingCampArcherTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/Archer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/Archer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/TrainingCamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/TrainingCamp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/TrainingCampArcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/TrainingCampArcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/TrainingCampWarrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/TrainingCampWarrior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch02_FactoryDesign/village/Warrior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_FactoryDesign/TrainingCampArcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_FactoryDesign/TrainingCampTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/TrainingCamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/TrainingCamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/TrainingCampArcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/TrainingCampArcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/TrainingCampWarrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/TrainingCampWarrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch02_FactoryDesign/village/Warrior.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2btIa5TwlxcnoJN8rz6KPTZDKh4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -15,10 +72,121 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/kyle/code/java/designPattern/MP22251_example",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\kyle\code\java\designPattern\designPatternDemo\designPattern\src\ch03_AbstractFactory" />
+      <recent name="D:\kyle\code\java\designPattern\designPatternDemo\designPattern\src\ch02_FactoryDesign" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\kyle\code\java\designPattern\designPatternDemo\designPattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.ch03_AbstractFactory" />
+      <recent name="src.ch02_FactoryDesign.village.village" />
+      <recent name="src.ch02_FactoryDesign.village" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SortingExampleTest.test">
+    <configuration name="SortingExampleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch04_Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch04_Strategy" />
+      <option name="MAIN_CLASS_NAME" value="src.ch04_Strategy.SortingExampleTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainingCampArcherTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch01_SimpleFactoryDesign.village.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch01_SimpleFactoryDesign" />
+      <option name="MAIN_CLASS_NAME" value="src.ch01_SimpleFactoryDesign.TrainingCampArcherTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainingCampTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch02_FactoryDesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch02_FactoryDesign" />
+      <option name="MAIN_CLASS_NAME" value="src.ch02_FactoryDesign.TrainingCampTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainingCampTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch02_FactoryDesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch02_FactoryDesign" />
+      <option name="MAIN_CLASS_NAME" value="src.ch02_FactoryDesign.TrainingCampTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainingCamp_EquipFactory_Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch03_AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch03_AbstractFactory" />
+      <option name="MAIN_CLASS_NAME" value="src.ch03_AbstractFactory.TrainingCamp_EquipFactory_Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SortingExampleTest.test" />
+        <item itemvalue="JUnit.TrainingCamp_EquipFactory_Test.test" />
+        <item itemvalue="JUnit.TrainingCampTest" />
+        <item itemvalue="JUnit.TrainingCampTest.test" />
+        <item itemvalue="JUnit.TrainingCampArcherTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
