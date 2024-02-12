@@ -22,6 +22,7 @@ public class AssociationTest {
         association.add(lancerAdam);
         association.add(gunmanTitan);
         association.add(BardPaul);
+        association.add(BardPaul); //將Subject冒險者成接任務清單由ArrayList改為HashSet型態, 避免一個人可以接多次相同的任務
 
         //發佈簡單任務
         System.out.println("派發簡單任務: run");
