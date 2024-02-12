@@ -1,5 +1,8 @@
 package src.ch07_Command.coffeeShop;
 
+/**
+ * 點心廚師 (Concrete Receiver)
+ */
 public class Chef implements KitchenWorker{
     @Override
     public void finishOrder() {

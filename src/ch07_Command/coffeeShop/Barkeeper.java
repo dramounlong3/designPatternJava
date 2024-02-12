@@ -1,5 +1,9 @@
 package src.ch07_Command.coffeeShop;
 
+
+/**
+ * 調酒師(Concrete Receiver)
+ */
 public class Barkeeper implements KitchenWorker{
     @Override
     public void finishOrder() {

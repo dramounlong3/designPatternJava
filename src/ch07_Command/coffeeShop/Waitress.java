@@ -6,6 +6,10 @@ import lombok.Setter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 服務生 (Invoker) 呼叫者
+ */
+
 @Getter
 @Setter
 public class Waitress {
@@ -16,6 +20,10 @@ public class Waitress {
 
     List<Order> orderList = new ArrayList<>();
 
+    /**
+     * 接收訂單
+     * @param order
+     */
     public void setOrder(Order order) {
         if(order.name.equals("snackOrder") && this.snackQty <= 0) {
             System.out.println("點心賣完了");
@@ -32,6 +40,10 @@ public class Waitress {
         }
     }
 
+    /**
+     * 取消訂單
+     * @param order
+     */
     public void cancelOrder(Order order) {
         if(this.orderList == null || this.orderList.size() == 0) {
             System.out.println("目前沒有訂單, 無法取消餐點");
@@ -50,7 +62,10 @@ public class Waitress {
         this.orderList.remove(order);
     }
 
-    //向廚房工作者送出訂單
+
+    /**
+     * 將訂單送到廚房
+     */
     public void notifyWorker() {
         for (Order order:this.orderList) {
             order.sendOrder();
