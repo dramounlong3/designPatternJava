@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch08_Adapter/Adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08_Adapter/Adapter/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08_Adapter/Adapter/NormalArcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08_Adapter/Adapter/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08_Adapter/AdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/KTVSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/PlayStation3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/VideoRoomFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/VideoRoomFacadeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Barkeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Barkeeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Chef.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Chef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/DrinkOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/DrinkOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/SnackOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/SnackOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Waitress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch07_Command/coffeeShop/Waitress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Barkeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Barkeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Chef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/DrinkOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/DrinkOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/KitchenWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/KitchenWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/SnackOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/SnackOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Waitress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07_Command/coffeeShop/Waitress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/kyle/code/java/designPattern/MP22251_example",
+    "last_opened_file_path": "D:/kyle/code/java/designPattern/designPatternDemo/designPattern",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -79,7 +68,7 @@
       <recent name="src.ch02_FactoryDesign.village" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdapterTest.test">
+  <component name="RunManager" selected="JUnit.VideoRoomFacadeTest.test">
     <configuration name="AdapterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
@@ -144,16 +133,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VideoRoomFacadeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch05_Decorator.*" />
+          <option name="PATTERN" value="src.ch09_Facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch05_Decorator" />
-      <option name="MAIN_CLASS_NAME" value="src.ch05_Decorator.TitleTest" />
+      <option name="PACKAGE_NAME" value="src.ch09_Facade" />
+      <option name="MAIN_CLASS_NAME" value="src.ch09_Facade.VideoRoomFacadeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -162,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VideoRoomFacadeTest.test" />
         <item itemvalue="JUnit.AdapterTest.test" />
         <item itemvalue="JUnit.CoffeeShopClientTest.test" />
         <item itemvalue="JUnit.AssociationTest.test" />
         <item itemvalue="JUnit.JavaIOTest.test" />
-        <item itemvalue="JUnit.TitleTest.test" />
       </list>
     </recent_temporary>
   </component>
