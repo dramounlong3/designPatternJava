@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/KTVSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/PlayStation3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/Stereo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/Television.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/Facade/VideoRoomFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09_Facade/VideoRoomFacadeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Adventurer/Adventurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Adventurer/GundamJustice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Adventurer/Sabar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Maze/DifficultMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Maze/EasyMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Maze/MazeTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch10_Template/MazeTemplateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/kyle/code/java/designPattern/designPatternDemo/designPattern",
+    "last_opened_file_path": "D:/kyle/code/java/designPattern/MP22251_example",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -68,7 +68,7 @@
       <recent name="src.ch02_FactoryDesign.village" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VideoRoomFacadeTest.test">
+  <component name="RunManager" selected="JUnit.MazeTemplateTest.test">
     <configuration name="AdapterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
@@ -117,16 +117,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaIOTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MazeTemplateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch05_Decorator.*" />
+          <option name="PATTERN" value="src.ch10_Template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch05_Decorator" />
-      <option name="MAIN_CLASS_NAME" value="src.ch05_Decorator.JavaIOTest" />
+      <option name="PACKAGE_NAME" value="src.ch10_Template" />
+      <option name="MAIN_CLASS_NAME" value="src.ch10_Template.MazeTemplateTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MazeTemplateTest.test" />
         <item itemvalue="JUnit.VideoRoomFacadeTest.test" />
         <item itemvalue="JUnit.AdapterTest.test" />
         <item itemvalue="JUnit.CoffeeShopClientTest.test" />
         <item itemvalue="JUnit.AssociationTest.test" />
-        <item itemvalue="JUnit.JavaIOTest.test" />
       </list>
     </recent_temporary>
   </component>
