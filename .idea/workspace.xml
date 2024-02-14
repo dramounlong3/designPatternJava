@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Adventurer/Adventurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Adventurer/GundamJustice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Adventurer/Sabar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Maze/DifficultMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Maze/EasyMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/Maze/MazeTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10_Template/MazeTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildBNoSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildBSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildCSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ParentA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ParentB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/SuperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/CompositeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/AbstractAssociation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/Association.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/CustomerDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/HumanResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/kyle/code/java/designPattern/MP22251_example",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/kyle/code/java/designPattern/MP22251_example&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\kyle\code\java\designPattern\designPatternDemo\designPattern\src\ch03_AbstractFactory" />
@@ -68,7 +74,7 @@
       <recent name="src.ch02_FactoryDesign.village" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MazeTemplateTest.test">
+  <component name="RunManager" selected="JUnit.CompositeTest.test">
     <configuration name="AdapterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
@@ -85,32 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssociationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompositeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch06_Observer.*" />
+          <option name="PATTERN" value="src.ch11_Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch06_Observer" />
-      <option name="MAIN_CLASS_NAME" value="src.ch06_Observer.AssociationTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoffeeShopClientTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.ch07_Command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.ch07_Command" />
-      <option name="MAIN_CLASS_NAME" value="src.ch07_Command.CoffeeShopClientTest" />
+      <option name="PACKAGE_NAME" value="src.ch11_Composite" />
+      <option name="MAIN_CLASS_NAME" value="src.ch11_Composite.CompositeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -127,6 +117,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="src.ch10_Template" />
       <option name="MAIN_CLASS_NAME" value="src.ch10_Template.MazeTemplateTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch00_testSuper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch00_testSuper" />
+      <option name="MAIN_CLASS_NAME" value="src.ch00_testSuper.SuperTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -151,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompositeTest.test" />
+        <item itemvalue="JUnit.SuperTest.test" />
         <item itemvalue="JUnit.MazeTemplateTest.test" />
         <item itemvalue="JUnit.VideoRoomFacadeTest.test" />
         <item itemvalue="JUnit.AdapterTest.test" />
-        <item itemvalue="JUnit.CoffeeShopClientTest.test" />
-        <item itemvalue="JUnit.AssociationTest.test" />
       </list>
     </recent_temporary>
   </component>
