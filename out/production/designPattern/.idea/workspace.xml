@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildBNoSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildBSuper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ChildCSuper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ParentA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/ParentB.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch00_testSuper/SuperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/CompositeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/AbstractAssociation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/Association.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/CustomerDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch11_Composite/OrganizationTree/HumanResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,16 +91,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoffeeShopClientTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompositeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch07_Command.*" />
+          <option name="PATTERN" value="src.ch11_Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch07_Command" />
-      <option name="MAIN_CLASS_NAME" value="src.ch07_Command.CoffeeShopClientTest" />
+      <option name="PACKAGE_NAME" value="src.ch11_Composite" />
+      <option name="MAIN_CLASS_NAME" value="src.ch11_Composite.CompositeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SuperTest.test" />
+        <item itemvalue="JUnit.CompositeTest.test" />
         <item itemvalue="JUnit.MazeTemplateTest.test" />
         <item itemvalue="JUnit.VideoRoomFacadeTest.test" />
         <item itemvalue="JUnit.AdapterTest.test" />
-        <item itemvalue="JUnit.CoffeeShopClientTest.test" />
       </list>
     </recent_temporary>
   </component>
