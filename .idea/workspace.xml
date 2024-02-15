@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/StateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/warrior/DesperateState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/warrior/FuryState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/warrior/NormalState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/warrior/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/warrior/UnableState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12_State/warrior/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/AOPProxy/FightManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/AOPProxy/ProxyFightManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/ProtectProxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/ProtectProxy/PersonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/ProtectProxy/ProxyPersonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/SmartProxy/GameDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/SmartProxy/ProxyRealGameDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch13_Proxy/SmartProxy/RealGameDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/designPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/designPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch11_Composite/CompositeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch11_Composite/CompositeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,33 +70,65 @@
       <recent name="src.ch02_FactoryDesign.village" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StateTest.test">
-    <configuration name="CompositeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProxyTest.AOPProxyTest">
+    <configuration name="ProxyTest.AOPProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch11_Composite.*" />
+          <option name="PATTERN" value="src.ch13_Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch11_Composite" />
-      <option name="MAIN_CLASS_NAME" value="src.ch11_Composite.CompositeTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="src.ch13_Proxy" />
+      <option name="MAIN_CLASS_NAME" value="src.ch13_Proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="AOPProxyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeTemplateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProxyTest.ProtectProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch10_Template.*" />
+          <option name="PATTERN" value="src.ch13_Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch10_Template" />
-      <option name="MAIN_CLASS_NAME" value="src.ch10_Template.MazeTemplateTest" />
+      <option name="PACKAGE_NAME" value="src.ch13_Proxy" />
+      <option name="MAIN_CLASS_NAME" value="src.ch13_Proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="ProtectProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.SmartProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch13_Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch13_Proxy" />
+      <option name="MAIN_CLASS_NAME" value="src.ch13_Proxy.ProxyTest" />
+      <option name="METHOD_NAME" value="SmartProxyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch13_Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch13_Proxy" />
+      <option name="MAIN_CLASS_NAME" value="src.ch13_Proxy.ProxyTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -121,45 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.ch00_testSuper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.ch00_testSuper" />
-      <option name="MAIN_CLASS_NAME" value="src.ch00_testSuper.SuperTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VideoRoomFacadeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.ch09_Facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="src.ch09_Facade" />
-      <option name="MAIN_CLASS_NAME" value="src.ch09_Facade.VideoRoomFacadeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProxyTest.AOPProxyTest" />
+        <item itemvalue="JUnit.ProxyTest.ProtectProxy" />
+        <item itemvalue="JUnit.ProxyTest.SmartProxyTest" />
+        <item itemvalue="JUnit.ProxyTest.test" />
         <item itemvalue="JUnit.StateTest.test" />
-        <item itemvalue="JUnit.SuperTest.test" />
-        <item itemvalue="JUnit.CompositeTest.test" />
-        <item itemvalue="JUnit.MazeTemplateTest.test" />
-        <item itemvalue="JUnit.VideoRoomFacadeTest.test" />
       </list>
     </recent_temporary>
   </component>
