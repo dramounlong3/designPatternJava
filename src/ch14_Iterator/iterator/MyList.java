@@ -5,18 +5,21 @@ import lombok.Setter;
 
 import java.util.Iterator;
 
+/**
+ * 簡單的list
+ */
 
 @Setter
 @Getter
-@SuppressWarnings("rawtypes")
+//@SuppressWarnings("rawtypes")
 public class MyList implements MyListInterface{
 
     private Integer index = 0;
     private Integer size = 0;
-    private String[] carList = new String[1000];    //範例給1000的大小
+    public String[] carList = new String[1000];    //範例給1000的大小
 
     //inner class, 實作Iterator
-   private class MyIterator implements Iterator {
+   public class MyIterator implements Iterator {
     //外層的變數 內層也可以取得, 等同於區域變數
         @Override
         public boolean hasNext() {
@@ -42,8 +45,8 @@ public class MyList implements MyListInterface{
 
     @Override
     public void add(String element) {
-       carList[index] = element;
-       index++;
+       carList[size] = element;
+       size++;
     }
 
 

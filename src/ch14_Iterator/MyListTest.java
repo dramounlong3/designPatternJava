@@ -19,12 +19,26 @@ public class MyListTest {
         myList.add("F1賽車");
 
         //取出iterator
-        @SuppressWarnings("rawtypes")
+        //@SuppressWarnings("rawtypes")
         Iterator iterator = myList.getIterator();   //回傳內層class 實作Iterator的物件
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 
-        //iterator.next();    //測試拋出exception
+        System.out.println();
+
+        //因為index已經超出size所以只能迭代一次
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        System.out.println();
+
+        try {
+            iterator.next();    //測試拋出exception
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
     }
 }
