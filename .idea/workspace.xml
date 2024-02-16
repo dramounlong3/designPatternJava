@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/RootBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/Gundam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/GundamBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/IRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/RobotBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch15_Builder/robotBuilder/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designPattern/src/ch14_Iterator/MyListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/src/ch14_Iterator/MyListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch14_Iterator/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch14_Iterator/MyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch14_Iterator/iterator/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch14_Iterator/iterator/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,7 @@
       <recent name="src.ch02_FactoryDesign.village" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyListTest.test">
+  <component name="RunManager" selected="JUnit.RootBuilderTest.test">
     <configuration name="MyListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
@@ -130,16 +135,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RootBuilderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch13_Proxy.*" />
+          <option name="PATTERN" value="src.ch15_Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch13_Proxy" />
-      <option name="MAIN_CLASS_NAME" value="src.ch13_Proxy.ProxyTest" />
+      <option name="PACKAGE_NAME" value="src.ch15_Builder" />
+      <option name="MAIN_CLASS_NAME" value="src.ch15_Builder.RootBuilderTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -148,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RootBuilderTest.test" />
         <item itemvalue="JUnit.MyListTest.test" />
         <item itemvalue="JUnit.ProxyTest.AOPProxyTest" />
         <item itemvalue="JUnit.ProxyTest.ProtectProxy" />
         <item itemvalue="JUnit.ProxyTest.SmartProxyTest" />
-        <item itemvalue="JUnit.ProxyTest.test" />
       </list>
     </recent_temporary>
   </component>
