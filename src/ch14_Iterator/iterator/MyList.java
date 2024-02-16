@@ -11,7 +11,7 @@ import java.util.Iterator;
 
 @Setter
 @Getter
-//@SuppressWarnings("rawtypes")
+@SuppressWarnings("rawtypes") //壓制編譯氣的警告訊息, 此處為implements Iterator時未指定泛型的型態
 public class MyList implements MyListInterface{
 
     private Integer index = 0;

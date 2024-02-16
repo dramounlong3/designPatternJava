@@ -19,7 +19,7 @@ public class MyListTest {
         myList.add("F1賽車");
 
         //取出iterator
-        //@SuppressWarnings("rawtypes")
+        @SuppressWarnings("rawtypes")   //壓制編譯氣的警告訊息, 此處為Iterator未指定泛型的型態
         Iterator iterator = myList.getIterator();   //回傳內層class 實作Iterator的物件
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
