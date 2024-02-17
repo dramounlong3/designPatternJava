@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch17_Interpreter/InterpreterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch17_Interpreter/interpreter/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch17_Interpreter/interpreter/DivideExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch17_Interpreter/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch17_Interpreter/interpreter/PlusExpression.java" afterDir="false" />
+    <list default="true" id="d90ca29e-6e18-43be-8c39-dc49389cfdf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch18_Mediator/MessageMediatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18_Mediator/chatRoom/CommonUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18_Mediator/chatRoom/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18_Mediator/chatRoom/MessageMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18_Mediator/chatRoom/Messenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch18_Mediator/chatRoom/VIPUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,30 +30,46 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2cRjM05m9EjRPEQHVnLmmum1wrv" />
+  <component name="ProjectId" id="2cUlTK1hjnpEO2MOyzCQXljme9X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/task/other/personal/java/design pattern&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/kyle/code/java/designPattern/designPatternDemo/designPattern"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="InterpreterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.MessageMediatorTest.test">
+    <configuration name="ChainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.ch17_Interpreter.*" />
+          <option name="PATTERN" value="src.ch16_ChainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="src.ch17_Interpreter" />
-      <option name="MAIN_CLASS_NAME" value="src.ch17_Interpreter.InterpreterTest" />
+      <option name="PACKAGE_NAME" value="src.ch16_ChainOfResponsibility" />
+      <option name="MAIN_CLASS_NAME" value="src.ch16_ChainOfResponsibility.ChainTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageMediatorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch18_Mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch18_Mediator" />
+      <option name="MAIN_CLASS_NAME" value="src.ch18_Mediator.MessageMediatorTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -61,18 +78,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InterpreterTest.test" />
+        <item itemvalue="JUnit.MessageMediatorTest.test" />
+        <item itemvalue="JUnit.ChainTest.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="" />
-      <created>1708081233641</created>
+      <changelist id="d90ca29e-6e18-43be-8c39-dc49389cfdf4" name="Changes" comment="" />
+      <created>1708174044246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1708081233641</updated>
+      <updated>1708174044246</updated>
     </task>
     <servers />
   </component>
