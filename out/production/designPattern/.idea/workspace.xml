@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2cecee-8b78-4912-b505-7e70669429c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch19_Prototype/ResumeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch19_Prototype/resumeExperience/AdventureExperience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch19_Prototype/resumeExperience/Resume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch20_Bridge/MailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch20_Bridge/MailTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/task/other/personal/java/design pattern example/StudyDesignPatternInJava"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/task/other/personal/java/design pattern example/StudyDesignPatternInJava&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ResumeTest.test">
+}</component>
+  <component name="RunManager" selected="JUnit.MailTest.test">
     <configuration name="InterpreterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <extension name="coverage">
@@ -51,6 +49,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="src.ch17_Interpreter" />
       <option name="MAIN_CLASS_NAME" value="src.ch17_Interpreter.InterpreterTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ch20_Bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="src.ch20_Bridge" />
+      <option name="MAIN_CLASS_NAME" value="src.ch20_Bridge.MailTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -75,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MailTest.test" />
         <item itemvalue="JUnit.ResumeTest.test" />
         <item itemvalue="JUnit.InterpreterTest.test" />
       </list>
